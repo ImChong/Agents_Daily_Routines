@@ -41,3 +41,8 @@ __pycache__/
 hermes-daily-config.env
 morning-report-config.env
 paper-reminder-config.env
+
+# 示例文件（允许提交）
+!hermes-daily-config.example.env
+!morning-report-config.example.env
+!paper-reminder-config.example.env
