@@ -1,0 +1,43 @@
+# 敏感配置文件
+*.env
+*.local
+*.secret
+*.key
+*.token
+config.local.*
+secrets.*
+
+# 个人配置文件
+personal-config.*
+my-config.*
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+tmp/
+temp/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 编译输出
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 特定敏感文件
+hermes-daily-config.env
+morning-report-config.env
+paper-reminder-config.env
